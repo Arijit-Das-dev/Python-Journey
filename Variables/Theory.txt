@@ -1,0 +1,37 @@
+What are variables ?
+Variables store changing information while a program is running.
+
+In AI/ML:
+
+1. Data changes
+2. Model parameters change
+3. Predictions change
+4.Metrics change
+
+Without variables:
+AI systems cannot learn, adapt, or make decisions
+
+Real problem they solve
+Imagine:
+
+Input data = millions of records
+Model weights = updated every training step
+Accuracy = recalculated every epoch
+You must store and update values continuously → variables do this.
+No variables = no learning.
+
+Variable Naming Rules :
+
+=> Must start with a letter or underscore (_)
+=> Can contain letters, numbers, or underscores
+=> Case-sensitive (Loss ≠ loss)
+=> Cannot use Python keywords (if, for, while, etc.)
+=> No spaces or special characters
+
+Best Practices for AI/ML:
+
+Use descriptive names: learning_rate, num_epochs, training_loss
+
+Use snake_case for variables, UPPERCASE for constants
+
+Avoid ambiguous single-letter names except in loops (i, j
