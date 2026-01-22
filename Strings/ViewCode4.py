@@ -6,6 +6,7 @@ prompt = f" string {} "
 
 """
 
+model = "LLaMa"
 
 prompt = f'''
 
@@ -31,6 +32,8 @@ Avoid unnecessary theory. Focus on concepts that actually matter in industry.
 If code is used, keep it minimal, clean, and practical.
 
 End with key takeaways from an AI engineer’s perspective.
+
+{model}
 
 '''
 
