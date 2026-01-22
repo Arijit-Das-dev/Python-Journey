@@ -1,0 +1,75 @@
+# =========================
+# PYTHON STRINGS (THEORY)
+# =========================
+#
+# A string in Python is a sequence of characters used to represent
+# textual data. Strings are enclosed within single quotes (''),
+# double quotes ("") or triple quotes (''' ''' / """ """).
+#
+# Strings are immutable, meaning once a string is created,
+# its contents cannot be changed.
+#
+# In AI, Machine Learning, and Data Science, strings usually represent
+# raw real-world data before it is converted into numerical form.
+#
+# -------------------------
+# String Creation
+# -------------------------
+# Strings can be created using:
+# - Single quotes
+# - Double quotes
+# - Triple quotes (used for multi-line text)
+#
+# -------------------------
+# Immutability of Strings
+# -------------------------
+# Strings cannot be modified after creation.
+# Any operation on a string creates a new string in memory.
+# This property ensures data safety and predictability.
+#
+# -------------------------
+# Common String Operations
+# -------------------------
+# - Concatenation (joining strings)
+# - Indexing and slicing
+# - Length calculation
+# - Comparison
+# - Searching and replacing
+#
+# -------------------------
+# String Methods
+# -------------------------
+# Python provides built-in methods for string manipulation such as:
+# lower(), upper(), strip(), split(), replace(), find()
+#
+# These methods are heavily used during data cleaning
+# and preprocessing in AI/ML workflows.
+#
+# -------------------------
+# Real-World AI/ML Usage
+# -------------------------
+# - User reviews, comments, and feedback (NLP)
+# - Dataset column names
+# - File paths and dataset locations
+# - Labels before encoding
+# - Text preprocessing (tokenization, normalization)
+#
+# -------------------------
+# Importance in AI/ML
+# -------------------------
+# Most real-world datasets contain text data.
+# Strings are usually converted into numerical representations
+# using techniques like encoding, vectorization, or embeddings
+# before feeding data into machine learning models.
+#
+# Proper handling of strings ensures:
+# - Clean data
+# - Accurate feature extraction
+# - Better model performance
+#
+# -------------------------
+# Key Takeaway
+# -------------------------
+# Strings represent raw information from the real world.
+# In AI/ML, strings are the first step in transforming
+# human-readable data into machine-understandable form.
