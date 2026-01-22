@@ -1,0 +1,81 @@
+# =========================
+# PYTHON DATA TYPES (THEORY)
+# =========================
+#
+# Data types in Python define the type of data a variable can store.
+# They help Python understand how much memory to allocate and what
+# operations can be performed on the data.
+#
+# In AI, Machine Learning, and Data Science, correct usage of data
+# types is critical because models work on numerical representations
+# of real-world data.
+#
+# -------------------------
+# 1. int (Integer)
+# -------------------------
+# Used to store whole numbers without decimal points.
+# Examples: counts, indexes, epochs, batch sizes.
+# Commonly used for loop counters and dataset sizes.
+#
+# -------------------------
+# 2. float (Floating Point)
+# -------------------------
+# Used to store decimal or real numbers.
+# Essential in AI/ML for weights, biases, loss values,
+# learning rates, and probability scores.
+#
+# -------------------------
+# 3. str (String)
+# -------------------------
+# Used to store textual data.
+# Real-world data such as user input, reviews, labels,
+# file paths, and dataset names are usually strings
+# before preprocessing.
+#
+# -------------------------
+# 4. bool (Boolean)
+# -------------------------
+# Stores True or False values.
+# Used for decision making, conditions, flags,
+# and controlling program flow in ML pipelines.
+#
+# -------------------------
+# 5. list
+# -------------------------
+# An ordered, mutable collection of elements.
+# Used to store multiple values such as features,
+# temporary data batches, and raw input values.
+#
+# -------------------------
+# 6. tuple
+# -------------------------
+# An ordered, immutable collection of elements.
+# Used when data should not be changed, such as
+# image dimensions, fixed configurations, or model shapes.
+#
+# -------------------------
+# 7. dict (Dictionary)
+# -------------------------
+# Stores data in key-value pairs.
+# Very useful for structured data like JSON objects,
+# model configurations, API responses, and feature mappings.
+#
+# -------------------------
+# 8. set
+# -------------------------
+# An unordered collection of unique elements.
+# Used to remove duplicate values and store
+# unique labels or categories in datasets.
+#
+# -------------------------
+# Importance in AI/ML
+# -------------------------
+# Correct data type usage improves:
+# - Performance
+# - Memory efficiency
+# - Model accuracy
+# - Code readability and maintainability
+#
+# Almost all AI/ML workflows involve converting
+# raw data (strings) into numerical data (int/float)
+# before feeding it into machine learning models.

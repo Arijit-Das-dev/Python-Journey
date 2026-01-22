@@ -34,4 +34,4 @@ Use descriptive names: learning_rate, num_epochs, training_loss
 
 Use snake_case for variables, UPPERCASE for constants
 
-Avoid ambiguous single-letter names except in loops (i, j
+Avoid ambiguous single-letter names except in loops.
