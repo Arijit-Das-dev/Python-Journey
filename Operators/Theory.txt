@@ -1,0 +1,132 @@
+# =========================
+# PYTHON OPERATORS (THEORY)
+# =========================
+#
+# Operators in Python are special symbols used to perform
+# operations on variables and values.
+#
+# In AI/ML and Data Science, operators are used heavily in:
+# - Mathematical computations
+# - Logical decision making
+# - Data preprocessing
+# - Model training calculations
+#
+# -------------------------
+# 1. Arithmetic Operators
+# -------------------------
+# Used to perform mathematical operations.
+#
+# +   Addition
+# -   Subtraction
+# *   Multiplication
+# /   Division (returns float)
+# //  Floor division
+# %   Modulus (remainder)
+# **  Exponentiation (power)
+#
+# AI/ML usage:
+# - Loss calculation
+# - Weight updates
+# - Feature scaling
+#
+# -------------------------
+# 2. Assignment Operators
+# -------------------------
+# Used to assign values to variables.
+#
+# =    Assign
+# +=   Add and assign
+# -=   Subtract and assign
+# *=   Multiply and assign
+# /=   Divide and assign
+# //=  Floor divide and assign
+# %=   Modulus and assign
+# **=  Power and assign
+#
+# AI/ML usage:
+# - Updating weights
+# - Accumulating loss values
+#
+# -------------------------
+# 3. Comparison Operators
+# -------------------------
+# Used to compare two values.
+# Always return True or False.
+#
+# ==   Equal to
+# !=   Not equal to
+# >    Greater than
+# <    Less than
+# >=   Greater than or equal to
+# <=   Less than or equal to
+#
+# AI/ML usage:
+# - Threshold checks
+# - Accuracy evaluation
+# - Conditional logic in pipelines
+#
+# -------------------------
+# 4. Logical Operators
+# -------------------------
+# Used to combine conditional statements.
+#
+# and   Returns True if both conditions are True
+# or    Returns True if at least one condition is True
+# not   Reverses the condition
+#
+# AI/ML usage:
+# - Filtering data
+# - Controlling training flow
+# - Rule-based systems
+#
+# -------------------------
+# 5. Identity Operators
+# -------------------------
+# Used to compare memory locations.
+#
+# is       Returns True if both variables refer to same object
+# is not   Returns True if variables refer to different objects
+#
+# AI/ML usage:
+# - Checking object references
+# - Debugging memory-related issues
+#
+# -------------------------
+# 6. Membership Operators
+# -------------------------
+# Used to test whether a value exists in a sequence.
+#
+# in       Returns True if value is present
+# not in   Returns True if value is not present
+#
+# AI/ML usage:
+# - Feature selection
+# - Label validation
+# - Dataset filtering
+#
+# -------------------------
+# 7. Bitwise Operators
+# -------------------------
+# Perform operations at the binary level.
+#
+# &   AND
+# |   OR
+# ^   XOR
+# ~   NOT
+# <<  Left shift
+# >>  Right shift
+#
+# AI/ML usage:
+# - Low-level optimization
+# - Embedded and performance-critical systems
+#
+# -------------------------
+# Importance in AI/ML
+# -------------------------
+# Operators form the backbone of:
+# - Mathematical modeling
+# - Data transformation
+# - Decision making
+#
+# Without operators, no learning algorithm,
+# preprocessing step, or evaluation metric can function.
