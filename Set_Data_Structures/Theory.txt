@@ -1,0 +1,63 @@
+# =========================
+# PYTHON SET – THEORY
+# =========================
+# A set is an unordered collection of unique elements.
+# Sets do NOT allow duplicate values.
+# Sets are mutable, but elements inside must be immutable.
+#
+# Syntax:
+# set_name = {value1, value2, value3}
+#
+# Key Characteristics:
+# 1. Unordered → No indexing or slicing
+# 2. Unique elements only
+# 3. Mutable container
+# 4. Faster lookup compared to lists
+#
+# Why we use Set?
+# - To remove duplicates automatically
+# - To perform mathematical set operations
+# - To improve performance for membership checking
+#
+# How we use Set?
+# - Data cleaning (duplicate removal)
+# - Feature selection
+# - Relationship mapping
+#
+# Real-World AI/ML Usage:
+# - Removing duplicate records in datasets
+# - Tracking unique users / IDs
+# - Finding common or different features between datasets
+#
+# Example:
+# dataset = [1, 2, 2, 3, 4, 4]
+# unique_data = set(dataset)
+#
+# Common Set Operations:
+# - Union (|)
+# - Intersection (&)
+# - Difference (-)
+# - Symmetric Difference (^)
+#
+# Example:
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+#
+# A | B  → {1, 2, 3, 4, 5}
+# A & B  → {3}
+# A - B  → {1, 2}
+# A ^ B  → {1, 2, 4, 5}
+#
+# Limitations:
+# - No duplicate values
+# - No indexing
+# - Elements must be hashable
+#
+# Set vs List:
+# - List → Ordered, allows duplicates
+# - Set  → Unordered, unique elements
+#
+# Interview Tip:
+# Use sets when uniqueness and fast lookup matter.
+#
+# =========================
