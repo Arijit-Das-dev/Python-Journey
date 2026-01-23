@@ -48,7 +48,7 @@ Loops are used to execute a block of code repeatedly.
 
 a for loop
    → Used when number of iterations is known
-   → Iterates over sequence (list, tuple, string, range
+   → Iterates over sequence list, tuple, string, range
 
 b while loop
    → Used when condition-based repetition is required
@@ -73,7 +73,7 @@ b continue
    → Skips current iteration and moves to next
 
 c pass
-   → Does nothing (used as placeholder
+   → Does nothing used as placeholder
 
 --------------------------------
 Use Case:
