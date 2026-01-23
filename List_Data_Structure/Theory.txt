@@ -1,0 +1,76 @@
+# =========================
+# PYTHON LISTS (THEORY)
+# =========================
+#
+# A list in Python is an ordered, mutable collection of elements.
+# Lists can store multiple values of different data types
+# such as integers, floats, strings, and even other lists.
+#
+# Lists are one of the most commonly used data structures in
+# Python, especially in AI, Machine Learning, and Data Science.
+#
+# -------------------------
+# List Creation
+# -------------------------
+# Lists are created using square brackets [].
+# Elements are separated by commas.
+#
+# -------------------------
+# Mutability of Lists
+# -------------------------
+# Lists are mutable, meaning their elements can be
+# modified, added, or removed after creation.
+#
+# This makes lists suitable for dynamic data handling
+# during preprocessing and intermediate computations.
+#
+# -------------------------
+# Indexing and Slicing
+# -------------------------
+# List elements can be accessed using indexes.
+# Indexing starts from 0.
+# Slicing is used to access a range of elements.
+#
+# -------------------------
+# Common List Operations
+# -------------------------
+# - Adding elements
+# - Removing elements
+# - Updating values
+# - Iterating through elements
+#
+# -------------------------
+# List Methods
+# -------------------------
+# Python provides built-in methods such as:
+# append(), insert(), extend(), remove(), pop(),
+# clear(), index(), count(), sort(), reverse(), copy()
+#
+# These methods are heavily used in data manipulation
+# and preprocessing tasks.
+#
+# -------------------------
+# Real-World AI/ML Usage
+# -------------------------
+# - Storing dataset values before converting to NumPy arrays
+# - Holding feature names
+# - Batch processing data
+# - Collecting predictions or evaluation results
+#
+# -------------------------
+# Importance in AI/ML
+# -------------------------
+# Lists act as a bridge between raw data and
+# optimized numerical structures like NumPy arrays.
+#
+# Understanding lists is essential for:
+# - Data preprocessing
+# - Algorithm implementation
+# - Logic building
+#
+# -------------------------
+# Key Takeaway
+# -------------------------
+# Lists provide flexibility and ease of use.
+# They are ideal for temporary storage and manipulation
+# of data in AI/ML workflows.
