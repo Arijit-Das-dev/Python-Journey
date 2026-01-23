@@ -74,3 +74,66 @@
 # Lists provide flexibility and ease of use.
 # They are ideal for temporary storage and manipulation
 # of data in AI/ML workflows.
+
+
+
+Important list methods
+
+"""
+=========================
+PYTHON LIST METHODS
+=========================
+
+1. append(x)
+   → Adds an element x at the end of the list
+
+2. extend(iterable)
+   → Adds all elements of an iterable (list, tuple, set) to the list
+
+3. insert(index, x)
+   → Inserts element x at a specific index
+
+4. remove(x)
+   → Removes the first occurrence of element x
+
+5. pop(index)
+   → Removes and returns element at given index (default: last)
+
+6. clear()
+   → Removes all elements from the list
+
+7. index(x)
+   → Returns index of first occurrence of element x
+
+8. count(x)
+   → Returns number of occurrences of element x
+
+9. sort()
+   → Sorts the list in ascending order
+
+10. sort(reverse=True)
+    → Sorts the list in descending order
+
+11. reverse()
+    → Reverses the order of elements in the list
+
+12. copy()
+    → Returns a shallow copy of the list
+
+--------------------------------
+IMPORTANT POINTS
+--------------------------------
+• Lists are mutable
+• Most list methods modify the original list
+• List methods usually return None
+
+--------------------------------
+REAL-WORLD USAGE (AI / ML)
+--------------------------------
+• Managing datasets
+• Storing batch data
+• Preprocessing inputs
+• Feature engineering
+
+=========================
+"""

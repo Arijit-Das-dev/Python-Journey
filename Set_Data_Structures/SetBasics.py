@@ -1,5 +1,6 @@
 # set basics
 # sets are immutable -> unchangable
+# sets are unordered
 
 isSet = {"a", "b", "c", "d"}
 print(isSet)
@@ -27,6 +28,5 @@ print(len(collection4))
 
 
 # The set() Constructor
-
 collection5 = set((1, 2, 3, 4, 5))
 print(type(collection5))

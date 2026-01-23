@@ -61,3 +61,9 @@
 # Use sets when uniqueness and fast lookup matter.
 #
 # =========================
+
+
+important set methods
+
+1. add()
+2. update()
