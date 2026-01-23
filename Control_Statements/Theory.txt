@@ -1,0 +1,99 @@
+=============================
+PYTHON CONTROL STATEMENTS
+=============================
+
+Control statements control the flow of execution of a program.
+They decide:
+• which code runs
+• how many times it runs
+• when to stop execution
+
+--------------------------------
+TYPES OF CONTROL STATEMENTS
+--------------------------------
+
+1. Conditional Statements
+2. Looping Statements
+3. Jump / Control Transfer Statements
+
+================================
+1. CONDITIONAL STATEMENTS
+================================
+
+Conditional statements execute code based on conditions.
+
+a if statement
+   → Executes block when condition is True
+
+b if-else statement
+   → Executes one block if True, another if False
+
+c if-elif-else ladder
+   → Used when multiple conditions are checked
+
+d Nested if
+   → if statement inside another if
+
+--------------------------------
+Use Case:
+• Decision making
+• Validation logic
+• AI rule-based systems
+
+================================
+2. LOOPING STATEMENTS
+================================
+
+Loops are used to execute a block of code repeatedly.
+
+a for loop
+   → Used when number of iterations is known
+   → Iterates over sequence (list, tuple, string, range
+
+b while loop
+   → Used when condition-based repetition is required
+   → Runs until condition becomes False
+
+--------------------------------
+Use Case:
+• Traversing data
+• Training loops in ML
+• Batch processing
+
+================================
+3. JUMP / CONTROL TRANSFER STATEMENTS
+================================
+
+These statements change the normal flow of loops.
+
+a break
+   → Terminates the loop immediately
+
+b continue
+   → Skips current iteration and moves to next
+
+c pass
+   → Does nothing (used as placeholder
+
+--------------------------------
+Use Case:
+• Loop control
+• Skipping invalid data
+• Structuring unfinished logic
+
+================================
+IMPORTANT NOTES
+================================
+• Python uses indentation instead of braces
+• Conditions must evaluate to True or False
+• Improper control flow leads to logical errors
+
+================================
+REAL-WORLD APPLICATIONS
+================================
+• User authentication systems
+• Data filtering
+• AI decision pipelines
+• Backend validation logic
+
+=============================
