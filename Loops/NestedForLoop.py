@@ -10,7 +10,6 @@ for num in nums:
         print(num, char)
 
 
-
 nums = [1, 2, 3, 4]
 chars = ["a", "b", "c", "d"]
 numChars = ["1a", "2b", "3c", "4d"]

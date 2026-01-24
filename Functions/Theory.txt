@@ -1,0 +1,118 @@
+"""
+=============================
+PYTHON FUNCTIONS
+=============================
+
+A function is a reusable block of code that performs
+a specific task and runs only when it is called.
+
+Functions help in:
+• Code reusability
+• Modularity
+• Readability
+• Maintainability
+
+================================
+WHY WE USE FUNCTIONS
+================================
+
+• Avoid code repetition
+• Break large problems into smaller parts
+• Improve debugging and testing
+• Structure real-world applications
+
+In AI/ML:
+• Data preprocessing functions
+• Feature engineering functions
+• Model training pipelines
+• Evaluation and inference
+
+================================
+FUNCTION DEFINITION
+================================
+
+A function is defined using the `def` keyword.
+
+Syntax concept:
+def function_name(parameters):
+    function_body
+    return value
+
+--------------------------------
+Key Components:
+• def → defines function
+• function_name → identifier
+• parameters → inputs
+• return → output (optional)
+
+================================
+FUNCTION PARAMETERS
+================================
+
+1. Parameters
+   → Variables listed in function definition
+
+2. Arguments
+   → Actual values passed during function call
+
+--------------------------------
+Types of Parameters:
+• Positional
+• Keyword
+• Default
+• Variable-length (*args, **kwargs)
+
+================================
+RETURN STATEMENT
+================================
+
+• Sends result back to caller
+• Ends function execution
+• A function without return returns None
+
+--------------------------------
+Important Rule:
+• A function can return multiple values (as tuple)
+
+================================
+FUNCTION SCOPE
+================================
+
+• Local Scope → variables inside function
+• Global Scope → variables outside function
+
+--------------------------------
+Scope Rule:
+• Local variables override global variables
+• Use global keyword to modify global variable
+
+================================
+DOCSTRINGS
+================================
+
+• Used to describe function behavior
+• Written inside triple quotes
+• Important for documentation and tools
+
+================================
+FUNCTIONS IN REAL-WORLD PROJECTS
+================================
+
+• API endpoints
+• ML pipelines
+• Data validation
+• Logging and monitoring
+• Automation scripts
+
+================================
+BEST PRACTICES
+================================
+
+• Keep functions small and focused
+• Use meaningful names
+• Avoid side effects
+• Write reusable logic
+• Document with docstrings
+
+=============================
+"""
