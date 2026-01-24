@@ -1,0 +1,116 @@
+"""
+=============================
+PYTHON LOOPS
+=============================
+
+Loops are used to execute a block of code repeatedly
+until a specified condition is met or a sequence ends.
+
+They help in:
+• Reducing code repetition
+• Iterating over data
+• Automating repetitive tasks
+
+================================
+TYPES OF LOOPS IN PYTHON
+================================
+
+1. for loop
+2. while loop
+3. Nested loops
+
+================================
+1. FOR LOOP
+================================
+
+The for loop is used to iterate over a sequence such as:
+• list
+• tuple
+• string
+• set
+• dictionary
+• range()
+
+The loop runs once for each element in the sequence.
+
+--------------------------------
+Key Points:
+• Number of iterations is known
+• Commonly used in data processing
+• Widely used in AI/ML datasets
+
+--------------------------------
+Common Use Cases:
+• Traversing arrays
+• Reading datasets
+• Feature processing
+
+================================
+2. WHILE LOOP
+================================
+
+The while loop executes a block of code
+as long as the condition remains True.
+
+--------------------------------
+Key Points:
+• Number of iterations is unknown
+• Condition-based execution
+• Risk of infinite loop if condition not updated
+
+--------------------------------
+Common Use Cases:
+• User input validation
+• Training loops with stop conditions
+• Real-time systems
+
+================================
+3. NESTED LOOPS
+================================
+
+A loop inside another loop is called a nested loop.
+
+--------------------------------
+Key Points:
+• Outer loop runs once for each inner loop cycle
+• Used for matrix, grid, pattern problems
+
+--------------------------------
+Common Use Cases:
+• 2D data structures
+• Image processing
+• Pattern generation
+
+================================
+LOOP CONTROL STATEMENTS
+================================
+
+1. break
+   → Terminates the loop immediately
+
+2. continue
+   → Skips current iteration and continues next
+
+3. pass
+   → Does nothing, used as placeholder
+
+================================
+IMPORTANT NOTES
+================================
+
+• Python uses indentation to define loop blocks
+• Loops must eventually terminate
+• Improper conditions cause infinite loops
+
+================================
+REAL-WORLD APPLICATIONS
+================================
+
+• Data preprocessing
+• Model training iterations
+• Backend automation
+• Log processing
+• Batch jobs
+
+=============================
+"""
