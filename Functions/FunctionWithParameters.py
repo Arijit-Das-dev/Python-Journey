@@ -46,3 +46,31 @@ def pet(animalName, colour, breed):
     print("My dog's breed is",breed)
 
 pet("Dog", "Black", "Pitbull")
+
+
+# Passing Different Data Types <= list, dictionary, string
+# List
+def exampleOfList(items):
+
+    for item in items:
+        print(item)
+
+exampleOfList([1, 2, 3, 4, 5, 6, 7])
+
+
+# String
+def exampleOfString(chars):
+
+    for char in chars:
+        print(char)
+
+exampleOfString("abcdef")
+
+
+# Dictionary
+def exampleOfDictionary(person):
+  print("Name:", person["name"])
+  print("Age:", person["age"])
+
+my_person = {"name": "Emil", "age": 25}
+exampleOfDictionary(my_person)
