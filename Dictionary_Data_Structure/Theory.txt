@@ -1,0 +1,125 @@
+"""
+=============================
+PYTHON DICTIONARY
+=============================
+
+A dictionary is a mutable, unordered collection of
+key–value pairs.
+
+Each key maps to a value, allowing fast data access.
+
+================================
+WHY WE USE DICTIONARIES
+================================
+
+• Store structured data
+• Fast lookups (O(1) average)
+• Represent real-world entities
+• Replace complex conditional logic
+
+In AI/ML:
+• Feature mappings
+• Label encoding
+• Model configuration
+• JSON-like data handling
+
+================================
+DICTIONARY STRUCTURE
+================================
+
+Syntax concept:
+{
+    key1: value1,
+    key2: value2
+}
+
+--------------------------------
+Rules:
+• Keys must be unique
+• Keys must be immutable (int, str, tuple)
+• Values can be any data type
+• Dictionary is mutable
+
+================================
+KEY–VALUE ACCESS
+================================
+
+• Access values using keys
+• Keys act like indexes (but semantic)
+
+--------------------------------
+Important:
+• Accessing missing key raises KeyError
+• Use safe access methods in production
+
+================================
+DICTIONARY METHODS
+================================
+
+Common methods:
+• get()        → safe access
+• keys()       → all keys
+• values()     → all values
+• items()      → key–value pairs
+• update()     → merge dictionaries
+• pop()        → remove key
+• clear()      → remove all entries
+
+================================
+ITERATING DICTIONARIES
+================================
+
+• Loop over keys
+• Loop over values
+• Loop over key–value pairs
+
+Used heavily in:
+• Data preprocessing
+• Feature extraction
+• JSON parsing
+
+================================
+DICTIONARY COMPREHENSION
+================================
+
+• Compact way to create dictionaries
+• Improves readability and performance
+
+Used in:
+• Feature transformation
+• Data normalization
+• Label mapping
+
+================================
+NESTED DICTIONARIES
+================================
+
+• Dictionary inside dictionary
+• Represents complex data structures
+
+Real-world usage:
+• API responses
+• ML experiment tracking
+• Configuration files
+
+================================
+REAL-WORLD APPLICATIONS
+================================
+
+• Dataset representation
+• Model parameters
+• Hyperparameter configs
+• Caching results
+• Logging metadata
+
+================================
+BEST PRACTICES
+================================
+
+• Use meaningful keys
+• Prefer get() over direct access
+• Avoid deeply nested structures
+• Keep dictionaries normalized
+
+=============================
+"""

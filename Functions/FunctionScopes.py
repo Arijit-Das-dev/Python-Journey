@@ -20,3 +20,20 @@ def globalScope():
     print(x)
 
 globalScope()
+print(x)
+
+
+# Global Keyword
+#If you need to create a global variable, but are stuck in the local scope, you can use the global keyword.
+
+
+def example():
+
+    global x 
+
+    x = 10
+
+    print(x)
+
+example()
+print(x)
