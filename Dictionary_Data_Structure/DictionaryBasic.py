@@ -28,3 +28,14 @@ thisdict = {
   "year": 1964
 }
 print(thisdict)
+
+
+# Length of dictionary
+print(len(thisdict))
+
+# type function
+print(type(thisdict))
+
+# dict() constructor
+isDictionary = dict(name = "Arijit", id = 12)
+print(isDictionary)
