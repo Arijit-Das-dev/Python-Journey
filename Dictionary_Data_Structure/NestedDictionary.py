@@ -81,6 +81,8 @@ Ignore failed experiments and compute the average validation accuracy.
 Update exp_003 status to "completed" and add a new key "remarks".
 """
 
+
+# Print the model name and framework for each experiment.
 for exp_id, modelDetails in data.items():
 
     modelName = modelDetails["model"]["name"]
@@ -88,3 +90,30 @@ for exp_id, modelDetails in data.items():
 
     print(f"{exp_id} | Model Name : {modelName}")
     print(f"{exp_id} | Model Framework : {modelFramework} \n")
+
+
+# Find the experiment ID with the highest validation accuracy.
+highest_validation_model_id = None
+max_model_Accuracy = 0
+
+for exp_id, modelDetails in data.items():
+
+    valueAccuracy = modelDetails["metrics"]["validation"]["accuracy"]
+
+    if valueAccuracy > max_model_Accuracy:
+
+        max_model_Accuracy = valueAccuracy
+        highest_validation_model_id = exp_id
+
+print(f"Highest model accuracy : {highest_validation_model_id}")
+
+
+# Create a list of experiments that use PyTorch.
+PyTorchList = []
+for exp_id, modelDetails in data.items():
+
+    if modelDetails["model"]["framework"] == "PyTorch":
+
+        PyTorchList.append(exp_id)
+
+print(PyTorchList)
