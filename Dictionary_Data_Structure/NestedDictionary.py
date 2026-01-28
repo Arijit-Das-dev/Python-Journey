@@ -1,4 +1,4 @@
-experiments = {
+data = {
     "exp_001": {
         "model": {
             "name": "ResNet50",
@@ -80,3 +80,11 @@ Ignore failed experiments and compute the average validation accuracy.
 
 Update exp_003 status to "completed" and add a new key "remarks".
 """
+
+for exp_id, modelDetails in data.items():
+
+    modelName = modelDetails["model"]["name"]
+    modelFramework = modelDetails["model"]["framework"]
+
+    print(f"{exp_id} | Model Name : {modelName}")
+    print(f"{exp_id} | Model Framework : {modelFramework} \n")
