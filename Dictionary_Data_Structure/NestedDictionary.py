@@ -138,3 +138,9 @@ for exp_id, modelDetails in experiments.items():
     
 
 print(f"Average : {total_sum/count}")
+
+
+# Update exp_003 status to "completed".
+experiments["exp_003"]["status"] = "completed"
+
+print(experiments)
