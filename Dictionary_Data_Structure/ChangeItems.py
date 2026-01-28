@@ -17,3 +17,9 @@ std_info["dept"] = "bba"
 std_info["score"] = 908
 
 print(std_info)
+
+
+# using update()
+
+std_info.update({"city":"xyz"})
+print(std_info)

@@ -67,4 +67,16 @@ experiments = {
     }
 }
 
-print(experiments)
+"""
+Print the model name and framework for each experiment.
+
+Find the experiment ID with the highest validation accuracy.
+
+Create a list of experiments that use PyTorch.
+
+Print the learning rate of exp_002.
+
+Ignore failed experiments and compute the average validation accuracy.
+
+Update exp_003 status to "completed" and add a new key "remarks".
+"""
