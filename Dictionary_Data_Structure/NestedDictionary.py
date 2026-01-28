@@ -1,4 +1,4 @@
-data = {
+experiments = {
     "exp_001": {
         "model": {
             "name": "ResNet50",
@@ -83,7 +83,7 @@ Update exp_003 status to "completed" and add a new key "remarks".
 
 
 # Print the model name and framework for each experiment.
-for exp_id, modelDetails in data.items():
+for exp_id, modelDetails in experiments.items():
 
     modelName = modelDetails["model"]["name"]
     modelFramework = modelDetails["model"]["framework"]
@@ -96,7 +96,7 @@ for exp_id, modelDetails in data.items():
 highest_validation_model_id = None
 max_model_Accuracy = 0
 
-for exp_id, modelDetails in data.items():
+for exp_id, modelDetails in experiments.items():
 
     valueAccuracy = modelDetails["metrics"]["validation"]["accuracy"]
 
@@ -110,10 +110,31 @@ print(f"Highest model accuracy : {highest_validation_model_id}")
 
 # Create a list of experiments that use PyTorch.
 PyTorchList = []
-for exp_id, modelDetails in data.items():
+for exp_id, modelDetails in experiments.items():
 
     if modelDetails["model"]["framework"] == "PyTorch":
 
         PyTorchList.append(exp_id)
 
 print(PyTorchList)
+
+
+# Print the learning rate of exp_002.
+learningRate = experiments["exp_002"]["model"]["params"]["lr"]
+print(learningRate)
+
+
+# Ignore failed experiments and compute the average validation accuracy.
+total_sum = 0
+count = 0
+
+for exp_id, modelDetails in experiments.items():
+
+    if modelDetails["status"] == "failed":
+        continue
+    
+    count += 1
+    total_sum += modelDetails["metrics"]["validation"]["accuracy"]
+    
+
+print(f"Average : {total_sum/count}")
