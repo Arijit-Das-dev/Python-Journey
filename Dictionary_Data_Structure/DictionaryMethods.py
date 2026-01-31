@@ -79,7 +79,7 @@ experiments = {
                 "loss": 0.55
             }
         },
-        "status": "failed"
+        "status": "failed",
     }
 }
 
