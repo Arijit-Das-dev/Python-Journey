@@ -1,0 +1,53 @@
+Create a Python OOP theory text file for GitHub use
+
+content = """
+PYTHON OBJECT-ORIENTED PROGRAMMING (OOP) – THEORY
+
+1. What is Object-Oriented Programming (OOP)?
+Object-Oriented Programming (OOP) is a programming paradigm that organizes software design around objects and classes rather than functions and logic. It helps in building modular, reusable, scalable, and maintainable applications. Python fully supports OOP principles.
+
+2. Class
+A class is a blueprint or template used to create objects. It defines the structure and behavior that the objects will have. A class contains attributes (data members) and methods (member functions). Memory is not allocated when a class is defined.
+
+3. Object
+An object is an instance of a class. It represents a real-world entity and contains actual values for the attributes defined in the class. Memory allocation happens when an object is created.
+
+4. Encapsulation
+Encapsulation is the process of binding data and methods together into a single unit called a class. It restricts direct access to some components of an object to protect data integrity. Encapsulation improves data security and code maintainability.
+
+5. Inheritance
+Inheritance allows one class (child class) to acquire the properties and behaviors of another class (parent class). It promotes code reusability and establishes a relationship between classes. Python supports single, multiple, multilevel, hierarchical, and hybrid inheritance.
+
+6. Polymorphism
+Polymorphism means “many forms.” It allows the same method name to perform different tasks based on the object calling it. Polymorphism increases flexibility and reduces code complexity.
+
+7. Abstraction
+Abstraction hides internal implementation details and shows only essential features to the user. It focuses on what an object does rather than how it does it. In Python, abstraction is achieved using abstract classes and interfaces.
+
+8. Constructor
+A constructor is a special method that is automatically called when an object is created. It is mainly used to initialize object attributes with initial values.
+
+9. Destructor
+A destructor is a method that is called when an object is deleted or destroyed. It is used to release resources such as memory or files.
+
+10. Access Modifiers
+Access modifiers define the accessibility of class members.
+- Public: Accessible from anywhere
+- Protected: Accessible within the class and its subclasses
+- Private: Accessible only within the class
+
+11. Method Overloading
+Method overloading refers to defining multiple methods with the same name but different parameters. Python achieves this using default arguments or variable-length arguments.
+
+12. Method Overriding
+Method overriding occurs when a child class provides a specific implementation of a method already defined in its parent class. It supports runtime polymorphism.
+
+13. Advantages of OOP
+- Code reusability
+- Modularity
+- Scalability
+- Maintainability
+- Better data security
+- Real-world problem modeling
+
+END OF FILE
