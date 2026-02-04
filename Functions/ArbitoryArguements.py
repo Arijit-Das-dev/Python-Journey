@@ -1,7 +1,11 @@
 # If you do not know how many arguments will be passed into your function, add a * before the parameter name.
 
 # def function(*args):
+"""
+Docstring for Functions.ArbitoryArguements
 
+There is mainly two types
+"""
 def addition(*nums):
 
     total = 0
