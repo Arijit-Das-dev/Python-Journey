@@ -1,0 +1,144 @@
+ ============================================
+           PYTHON FILE HANDLING
+ ============================================
+
+ File handling in Python is used to:
+ - Create files
+ - Read data from files
+ - Write data into files
+ - Append data
+ - Delete files
+ - Store data permanently on disk
+
+
+ --------------------------------------------
+ TYPES OF FILES
+ --------------------------------------------
+
+ 1. Text Files
+    - Stores data in readable format
+    - Example: .txt, .csv, .log
+
+ 2. Binary Files
+    - Stores data in binary (0 and 1)
+    - Example: .jpg, .png, .mp3, .bin
+
+
+ --------------------------------------------
+ OPENING A FILE
+ --------------------------------------------
+
+ open() function is used to open a file.
+
+ Syntax:
+ file_object = open("filename", "mode")
+
+ Example modes:
+ "r"  -> Read (default mode)
+ "w"  -> Write (overwrites file if exists)
+ "a"  -> Append (adds data at end)
+ "x"  -> Create (error if file exists)
+ "b"  -> Binary mode
+ "t"  -> Text mode (default)
+
+
+ --------------------------------------------
+ FILE MODES EXPLAINED
+ --------------------------------------------
+
+ "r"  -> Opens file for reading.
+         Error if file does not exist.
+
+ "w"  -> Opens file for writing.
+         Creates new file if not exists.
+         Deletes old content if exists.
+
+ "a"  -> Opens file for appending.
+         Adds data at end.
+         Creates file if not exists.
+
+ "x"  -> Creates a new file.
+         Gives error if file already exists.
+
+ "rb" -> Read in binary mode.
+ "wb" -> Write in binary mode.
+
+
+ --------------------------------------------
+ READING FROM A FILE
+ --------------------------------------------
+
+ read()        -> Reads entire file
+ readline()    -> Reads one line at a time
+ readlines()   -> Reads all lines and returns a list
+
+
+ --------------------------------------------
+ WRITING INTO A FILE
+ --------------------------------------------
+
+ write()   -> Writes a string into file
+ writelines() -> Writes multiple strings (list)
+
+
+ --------------------------------------------
+ CLOSING A FILE
+ --------------------------------------------
+
+ After working with a file, we should close it.
+
+ Syntax:
+ file_object.close()
+
+ Closing a file:
+ - Frees memory
+ - Prevents data corruption
+
+
+ --------------------------------------------
+ WITH STATEMENT (BEST PRACTICE)
+ --------------------------------------------
+
+ Using 'with' automatically closes file.
+
+ Syntax:
+ with open("filename", "mode") as f:
+      file operations
+
+ Advantages:
+ - No need to manually close file
+ - Cleaner and safer code
+
+
+ --------------------------------------------
+ FILE POINTER METHODS
+ --------------------------------------------
+
+ tell()  -> Returns current file pointer position
+ seek(n) -> Moves pointer to specific position
+
+
+ --------------------------------------------
+ FILE DELETION
+ --------------------------------------------
+
+ To delete a file, we use os module.
+
+ Steps:
+ 1. Import os module
+ 2. Use os.remove("filename")
+
+
+ --------------------------------------------
+ IMPORTANT NOTES
+ --------------------------------------------
+
+ - Always handle file errors properly.
+ - Use exception handling (try-except).
+ - Prefer 'with' statement.
+ - Be careful while using "w" mode (it overwrites).
+
+
+ ============================================
+ END OF PYTHON FILE HANDLING THEORY
+ ============================================
