@@ -50,3 +50,43 @@ ii) User-defined Functions
 iii) Arguments & Return Values
 
 iv) Lambda Functions
+
+## 🔹 File Handling
+
+1. Text Files
+
+2. Binary Files
+
+3. File Modes
+
+4. Read / Write / Append
+
+5. Exception Handling with Files
+
+🔹 Exception Handling
+
+Try–Except
+
+Finally
+
+Custom Exceptions
+
+🔹 Modules & Packages
+
+Built-in Modules
+
+User-defined Modules
+
+Package Structure
+
+🔹 Advanced Concepts
+
+Iterators & Generators
+
+Decorators
+
+Comprehensions
+
+Regular Expressions
+
+Virtual Environments
