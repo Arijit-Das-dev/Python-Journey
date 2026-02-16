@@ -63,30 +63,30 @@ iv) Lambda Functions
 
 5. Exception Handling with Files
 
-🔹 Exception Handling
+## 🔹 Exception Handling
 
-Try–Except
+1. Try–Except
 
-Finally
+2. Finally
 
-Custom Exceptions
+3. Custom Exceptions
 
-🔹 Modules & Packages
+## 🔹 Modules & Packages
 
-Built-in Modules
+1. Built-in Modules
 
-User-defined Modules
+2. User-defined Modules
 
-Package Structure
+3. Package Structure
 
-🔹 Advanced Concepts
+## 🔹 Advanced Concepts
 
-Iterators & Generators
+1. Iterators & Generators
 
-Decorators
+2. Decorators
 
-Comprehensions
+3. Comprehensions
 
-Regular Expressions
+4. Regular Expressions
 
-Virtual Environments
+5. Virtual Environments
