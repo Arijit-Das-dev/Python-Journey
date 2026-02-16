@@ -90,3 +90,125 @@ iv) Lambda Functions
 4. Regular Expressions
 
 5. Virtual Environments
+
+
+```
+python-learning-journey/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── 01_basics/
+│   ├── variables.py
+│   ├── data_types.py
+│   ├── type_casting.py
+│   ├── operators.py
+│   └── input_output.py
+│
+├── 02_control_flow/
+│   ├── if_else.py
+│   ├── nested_conditions.py
+│   ├── for_loop.py
+│   ├── while_loop.py
+│   └── loop_control_statements.py
+│
+├── 03_data_structures/
+│   ├── lists/
+│   │   ├── list_basics.py
+│   │   ├── list_methods.py
+│   │   └── list_comprehension.py
+│   │
+│   ├── tuples/
+│   │   ├── tuple_basics.py
+│   │   └── tuple_methods.py
+│   │
+│   ├── sets/
+│   │   ├── set_basics.py
+│   │   └── set_operations.py
+│   │
+│   └── dictionaries/
+│       ├── dict_basics.py
+│       ├── dict_methods.py
+│       └── dict_comprehension.py
+│
+├── 04_functions/
+│   ├── function_basics.py
+│   ├── arguments_types.py
+│   ├── lambda_functions.py
+│   ├── recursion.py
+│   └── docstrings.py
+│
+├── 05_oop/
+│   ├── class_and_object.py
+│   ├── constructor.py
+│   ├── inheritance/
+│   │   ├── single_inheritance.py
+│   │   ├── multiple_inheritance.py
+│   │   └── multilevel_inheritance.py
+│   │
+│   ├── encapsulation.py
+│   ├── abstraction.py
+│   ├── polymorphism.py
+│   └── dunder_methods.py
+│
+├── 06_file_handling/
+│   ├── text_files.py
+│   ├── binary_files.py
+│   ├── file_modes.py
+│   ├── with_statement.py
+│   └── file_exception_handling.py
+│
+├── 07_exception_handling/
+│   ├── try_except.py
+│   ├── finally_block.py
+│   └── custom_exceptions.py
+│
+├── 08_modules_packages/
+│   ├── built_in_modules.py
+│   ├── user_defined_module/
+│   │   ├── main.py
+│   │   └── helper.py
+│   └── package_example/
+│       ├── __init__.py
+│       └── module1.py
+│
+├── 09_advanced_concepts/
+│   ├── iterators.py
+│   ├── generators.py
+│   ├── decorators.py
+│   ├── regular_expressions.py
+│   ├── virtual_environment_notes.md
+│   └── context_managers.py
+│
+├── 10_standard_library/
+│   ├── os_module.py
+│   ├── sys_module.py
+│   ├── datetime_module.py
+│   ├── math_module.py
+│   └── random_module.py
+│
+├── 11_practice_problems/
+│   ├── basic_problems.py
+│   ├── intermediate_problems.py
+│   └── oop_based_problems.py
+│
+├── 12_mini_projects/
+│   ├── calculator/
+│   │   └── calculator.py
+│   │
+│   ├── number_guessing_game/
+│   │   └── game.py
+│   │
+│   ├── file_manager/
+│   │   └── manager.py
+│   │
+│   └── user_auth_system/
+│       └── auth.py
+│
+└── resources/
+    ├── python_notes.md
+    ├── interview_questions.md
+    └── roadmap.md
+
+```
