@@ -18,7 +18,7 @@ Docstring for File Handling.Text_files
 # 3. Write  -> Write data to the file
 # 4. Append -> Add data at the end of the file
 # 5. Close  -> Close the file to free resources
-#
+
 # -------------------------
 # Important Functions
 # -------------------------
@@ -46,3 +46,4 @@ Open the file -> Read/write/append some data -> close the file
 
 """
 
+open()
