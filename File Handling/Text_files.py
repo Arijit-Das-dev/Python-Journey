@@ -38,3 +38,11 @@ Docstring for File Handling.Text_files
 # =========================
 
 """
+"""
+
+Methods to use a file :
+
+Open the file -> Read/write/append some data -> close the file
+
+"""
+
