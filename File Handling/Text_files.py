@@ -46,4 +46,7 @@ Open the file -> Read/write/append some data -> close the file
 
 """
 
-open()
+f = open("File Handling/demo.txt", "r")
+data = f.read()
+print(data)
+print(type(data))
