@@ -1,0 +1,27 @@
+Code1 :
+"""
+
+f = open("file.txt", "w")
+f.write("Hello")
+f.close()
+
+"""
+
+In that code, if error happens before f.close() the file will still be open.
+That's why we need with keyword.
+
+Code2 :
+"""
+
+with open("file.txt", "w") as f:
+    f.write("Hello")
+
+"""
+
+In that code.
+
+After block ends:
+
+-- File automatically closes ✅
+-- Even if error happens ✅
+-- No need for f.close().
