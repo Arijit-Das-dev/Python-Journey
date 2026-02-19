@@ -1,12 +1,4 @@
-"""
-Docstring for File Handling.With Keyword.Example
-"""
 
-# Creating a non-existing file
-
-with open("File Handling/With Keyword/New_file.txt", "w") as f:
-
-    text = """
 
     ==============================
         FILE HANDLING DEMO
@@ -32,10 +24,4 @@ with open("File Handling/With Keyword/New_file.txt", "w") as f:
 
     End of demo file.
 
-    """
-
-    f.write(text)
-
-    print("=="*50)
-    print("____FILE CREATED SUCCESSFULLY____")
-    print("=="*50)
+    
