@@ -1,16 +1,4 @@
-"""
-Docstring for File Handling.Modes.write
 
-Writing text into that existing file
-
-Used Mode : "w"
-
-**Note : By using "w" mode, you can create any non-existing file and append some text data into it
-"""
-
-f = open("File Handling/Modes/Second_txt_file.txt", "w")
-
-text = """
 ==============================
         FILE HANDLING DEMO
 ==============================
@@ -34,7 +22,3 @@ Advantages of using 'with':
 - Cleaner and safer code
 
 End of demo file.
-"""
-
-f.write(text)
-f.close()
